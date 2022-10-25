@@ -7,6 +7,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[nombre_tecnico](nombre_tecnico/) | 15.0.1.0.0 | descripcion
+[avoid_assignation_notification](avoid_assignation_notification/) | 15.0.1.0.0 | Do not notify assignation from specific models.
 
 [//]: # (end addons)

@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* avoid_assignation_notification
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 12:19+0000\n"
+"PO-Revision-Date: 2022-10-20 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: avoid_assignation_notification
+#: model_terms:ir.ui.view,arch_db:avoid_assignation_notification.avoid_assignation_notification_res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Assignations Notifications</span>"
+msgstr "<span class=\"o_form_label\">Notificaciones de asignación</span>"
+
+#. module: avoid_assignation_notification
+#: model_terms:ir.ui.view,arch_db:avoid_assignation_notification.avoid_assignation_notification_res_config_settings_view_form
+msgid "Assignations messages related to the selected models will not be created"
+msgstr "Los mensajes relacionados con las asignaciones de los modelos seleccionados no se crearán"
+
+#. module: avoid_assignation_notification
+#: model:ir.model,name:avoid_assignation_notification.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: avoid_assignation_notification
+#: model:ir.model,name:avoid_assignation_notification.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: avoid_assignation_notification
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_mail_thread__display_name
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_company__display_name
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: avoid_assignation_notification
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_company__excluded_models_assignation_notif_ids
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_config_settings__excluded_models_assignation_notif_ids
+msgid "Do not notify assignations models"
+msgstr "No notificar los modelos"
+
+#. module: avoid_assignation_notification
+#: model:ir.model,name:avoid_assignation_notification.model_mail_thread
+msgid "Email Thread"
+msgstr "Hilo de mensajes"
+
+#. module: avoid_assignation_notification
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_mail_thread__id
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_company__id
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_config_settings__id
+msgid "ID"
+msgstr ""
+
+#. module: avoid_assignation_notification
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_mail_thread____last_update
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_company____last_update
+#: model:ir.model.fields,field_description:avoid_assignation_notification.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
