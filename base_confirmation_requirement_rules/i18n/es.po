@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_confirmation_requirement_rules
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-13 09:24+0000\n"
+"PO-Revision-Date: 2024-03-13 10:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model,name:base_confirmation_requirement_rules.model_confirmation_requirement_mixin
+msgid "Confirmation Requirement Mixin"
+msgstr "Requerimiento de confirmación Mixin"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model,name:base_confirmation_requirement_rules.model_confirmation_requirement_rule_mixin
+msgid "Confirmation Requirement Rule Mixin"
+msgstr "Regla de requerimiento de conformación Mixin"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_confirmation_requirement_rule_mixin__domain
+msgid "Domain"
+msgstr "Dominio"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_confirmation_requirement_rule_mixin__error_description
+msgid "Error Description"
+msgstr "Descripción de error"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_confirmation_requirement_rule_mixin__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model,name:base_confirmation_requirement_rules.model_requirement_rule_type_mixin
+msgid "Requirement Rule Type"
+msgstr "Tipo de regla de requerimiento"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_requirement_rule_type_mixin__requirement_rule_ids
+msgid "Requirement Rules"
+msgstr "Reglas de requerimiento"
+
+#. module: base_confirmation_requirement_rules
+#: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_requirement_rule_type_mixin__use_requirement_rules
+msgid "Use Requirement Rules"
+msgstr "Utilizar reglas de requerimiento"
