@@ -7,6 +7,6 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[nombre_tecnico](nombre_tecnico/) | 15.0.1.0.0 | descripcion
+[base_confirmation_requirement_rules](base_confirmation_requirement_rules/) | 15.0.1.0.0 | Base module to set confirmation requirement rules
 
 [//]: # (end addons)
