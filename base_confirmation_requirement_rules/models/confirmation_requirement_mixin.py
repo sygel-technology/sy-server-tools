@@ -16,15 +16,13 @@ class ConfirmationRequirementMixin(models.AbstractModel):
             "base_confirmation_requirement_rules.group_skip_confirmation_requirement_rules"
         ):
             for rec in self.filtered(
-                lambda a: a[self._type_field.get("type", False)] and 
-                a[self._type_field["type"]].use_requirement_rules and 
-                a[self._type_field["type"]].requirement_rule_ids
+                lambda a: a[self._type_field.get("type", False)]
+                and a[self._type_field["type"]].use_requirement_rules
+                and a[self._type_field["type"]].requirement_rule_ids
             ):
                 for rule in rec[self._type_field["type"]].requirement_rule_ids:
                     domain = safe_eval(rule.domain) + [
                         ["id", "=", rec.id],
                     ]
                     if self.search_count(domain) != 1:
-                        raise ValidationError(
-                            rule.error_description
-                        )
+                        raise ValidationError(rule.error_description)
