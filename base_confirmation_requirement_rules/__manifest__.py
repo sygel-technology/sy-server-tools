@@ -5,7 +5,7 @@
     "name": "Base Confirmation Requirement Rules",
     "version": "15.0.1.0.0",
     "summary": "Base module to set confirmation requirement rules.",
-    "website": "https://www.sygel.es",
+    "website": "https://github.com/sygel-technology/sy-server-tools",
     "author": "Sygel, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "category": "Base",
@@ -13,9 +13,7 @@
     "depends": [
         "base",
     ],
-    "data": [
-        "data/confirmation_requirement_data.xml"
-    ],
+    "data": ["data/confirmation_requirement_data.xml"],
     "installable": True,
     "auto_install": False,
 }
