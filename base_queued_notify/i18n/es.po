@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_queued_notify
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-10 09:57+0000\n"
+"PO-Revision-Date: 2024-10-10 12:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__avoid_internal_users
+msgid "Avoid Internal Users"
+msgstr "Evitar usuarios internos"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,help:base_queued_notify.field_activity_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,help:base_queued_notify.field_mail_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,help:base_queued_notify.field_note_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,help:base_queued_notify.field_notify_mixin__time_after_confirmation
+msgid "Delay used to calculate the notification date"
+msgstr "Tiempo de retraso usado para calcular la fecha de notificación"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,help:base_queued_notify.field_activity_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,help:base_queued_notify.field_mail_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,help:base_queued_notify.field_note_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,help:base_queued_notify.field_notify_mixin__reference_date_field_id
+msgid ""
+"Field of the notified model used to calculate of the notification date. \n"
+"        If not selected the default is the notification launch moment "
+msgstr ""
+"Campo del modelo notificado usado como referencia para calcular la fecha de notificación. \n"
+"        Si no se selecciona, se usa por defecto el momento en el que se crea la notificación "
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__mail_template_id
+msgid "Mail Template"
+msgstr "Plantilla de correo"
+
+#. module: base_queued_notify
+#: model:ir.model,name:base_queued_notify.model_activity_notify_mixin
+msgid "Mixin for queued activity notification events"
+msgstr "Mixin para eventos de notificación encolados"
+
+#. module: base_queued_notify
+#: model:ir.model,name:base_queued_notify.model_mail_notify_mixin
+msgid "Mixin for queued mail notification events"
+msgstr "Mixin para eventos de notificación encolados de correo"
+
+#. module: base_queued_notify
+#: model:ir.model,name:base_queued_notify.model_note_notify_mixin
+msgid "Mixin for queued note notification events"
+msgstr "Mixin para eventos de notificación encolados de nota"
+
+#. module: base_queued_notify
+#: model:ir.model,name:base_queued_notify.model_notify_mixin
+msgid "Mixin for queued notification events"
+msgstr "Mixin para eventos de notificación encolados de actividad"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__note
+msgid "Note"
+msgstr "Nota"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_note_notify_mixin__note_text
+msgid "Note Text"
+msgstr "Texto de la nota"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__notified_model_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__notified_model_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_note_notify_mixin__notified_model_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_notify_mixin__notified_model_id
+msgid "Notified Model"
+msgstr "Modelo notificado"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_note_notify_mixin__reference_date_field_id
+#: model:ir.model.fields,field_description:base_queued_notify.field_notify_mixin__reference_date_field_id
+msgid "Reference date field"
+msgstr "Campo referencia para la fecha"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__summary
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,field_description:base_queued_notify.field_note_notify_mixin__time_after_confirmation
+#: model:ir.model.fields,field_description:base_queued_notify.field_notify_mixin__time_after_confirmation
+msgid "Time After Confirmation"
+msgstr "Tiempo después de la confirmacion"
+
+#. module: base_queued_notify
+#: model_terms:ir.ui.view,arch_db:base_queued_notify.mail_notify_mixin_tree
+#: model_terms:ir.ui.view,arch_db:base_queued_notify.note_notify_mixin_tree
+msgid "Time After Confirmation (Hours)"
+msgstr "Tiempo después de la confirmacion (horas)"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__time_to_deadline
+msgid "Time To Deadline"
+msgstr "Tiempo para vencimiento"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__trigger_state
+#: model:ir.model.fields,field_description:base_queued_notify.field_mail_notify_mixin__trigger_state
+#: model:ir.model.fields,field_description:base_queued_notify.field_note_notify_mixin__trigger_state
+#: model:ir.model.fields,field_description:base_queued_notify.field_notify_mixin__trigger_state
+msgid "Trigger State"
+msgstr "Estado de activación"
+
+#. module: base_queued_notify
+#: model:ir.model.fields,field_description:base_queued_notify.field_activity_notify_mixin__user_id
+msgid "User"
+msgstr "Usuario"
