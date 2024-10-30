@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Alberto Martínez <alberto.martinez@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+    <record id="mail_notify_mixin_tree" model="ir.ui.view">
+        <field name="name">mail.notify.mixin.tree</field>
+        <field name="model">mail.notify.mixin</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="trigger_state" />
+                <field
+                    name="time_after_confirmation"
+                    string="Time After Confirmation (Hours)"
+                />
+                <field name="reference_date_field_id" />
+                <field name="mail_template_id" />
+                <field name="avoid_internal_users" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="note_notify_mixin_tree" model="ir.ui.view">
+        <field name="name">note.notify.mixin.tree</field>
+        <field name="model">note.notify.mixin</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="trigger_state" />
+                <field
+                    name="time_after_confirmation"
+                    string="Time After Confirmation (Hours)"
+                />
+                <field name="reference_date_field_id" />
+                <field name="note_text" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="activity_notify_mixin_tree" model="ir.ui.view">
+        <field name="name">activity.notify.mixin.tree</field>
+        <field name="model">activity.notify.mixin</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="trigger_state" />
+                <field name="time_after_confirmation" />
+                <field name="reference_date_field_id" />
+                <field name="summary" />
+                <field name="note" />
+                <field name="time_to_deadline" />
+                <field name="user_id" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>
