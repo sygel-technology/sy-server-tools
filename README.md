@@ -17,7 +17,11 @@ Odoo Server Tools
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[html_fields_document_layout_configuration](html_fields_document_layout_configuration/) | 16.0.1.0.0 |  | Html fields in document layout configuration
 
 [//]: # (end addons)
 
