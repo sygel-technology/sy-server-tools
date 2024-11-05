@@ -1,5 +1,5 @@
 [project]
-name = "base_queued_notify"
+name = "odoo-addons-sygel-technology-sy-server-tools"
 version = "17.0.20241030.0"
 dependencies = [
     "odoo-addon-base_queued_notify>=17.0dev,<17.1dev",
