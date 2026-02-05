@@ -16,6 +16,13 @@ Odoo Server Tools
 <!-- prettier-ignore-start -->
 
 [//]: # (addons)
+
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[html_fields_document_layout_configuration](html_fields_document_layout_configuration/) | 18.0.1.0.0 |  | Html fields in document layout configuration
+
 [//]: # (end addons)
 
 <!-- prettier-ignore-end -->
