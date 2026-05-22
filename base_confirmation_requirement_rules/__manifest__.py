@@ -6,7 +6,7 @@
     "version": "15.0.1.0.0",
     "summary": "Base module to set confirmation requirement rules.",
     "website": "https://github.com/sygel-technology/sy-server-tools",
-    "author": "Sygel, Odoo Community Association (OCA)",
+    "author": "Sygel",
     "license": "AGPL-3",
     "category": "Base",
     "license": "AGPL-3",
