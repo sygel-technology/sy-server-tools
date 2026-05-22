@@ -4,18 +4,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-13 09:24+0000\n"
-"PO-Revision-Date: 2024-03-13 10:25+0100\n"
+"POT-Creation-Date: 2026-05-22 12:24+0000\n"
+"PO-Revision-Date: 2026-05-22 12:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es\n"
-"X-Generator: Poedit 2.3\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
 
 #. module: base_confirmation_requirement_rules
 #: model:ir.model,name:base_confirmation_requirement_rules.model_confirmation_requirement_mixin
@@ -44,13 +42,18 @@ msgstr "Nombre"
 
 #. module: base_confirmation_requirement_rules
 #: model:ir.model,name:base_confirmation_requirement_rules.model_requirement_rule_type_mixin
-msgid "Requirement Rule Type"
+msgid "Requirement Rule Type Mixin"
 msgstr "Tipo de regla de requerimiento"
 
 #. module: base_confirmation_requirement_rules
 #: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_requirement_rule_type_mixin__requirement_rule_ids
 msgid "Requirement Rules"
 msgstr "Reglas de requerimiento"
+
+#. module: base_confirmation_requirement_rules
+#: model:res.groups,name:base_confirmation_requirement_rules.group_skip_confirmation_requirement_rules
+msgid "Skip Confirmation Requirement Rules"
+msgstr "Saltar confirmación de reglas de requerimento"
 
 #. module: base_confirmation_requirement_rules
 #: model:ir.model.fields,field_description:base_confirmation_requirement_rules.field_requirement_rule_type_mixin__use_requirement_rules

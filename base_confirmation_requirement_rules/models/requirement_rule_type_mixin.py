@@ -13,4 +13,4 @@ class RequirementRuleTypeMixin(models.AbstractModel):
         comodel_name="confirmation.requirement.rule.mixin",
         relation="confirmation_requirement_rule_type_rel",
     )
-    use_requirement_rules = fields.Boolean(string="Use Requirement Rules")
+    use_requirement_rules = fields.Boolean()

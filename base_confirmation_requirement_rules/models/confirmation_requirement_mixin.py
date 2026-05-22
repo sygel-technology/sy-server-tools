@@ -12,7 +12,7 @@ class ConfirmationRequirementMixin(models.AbstractModel):
     _type_field = {}
 
     def check_confirmation_requirements(self):
-        if not self.user_has_groups(
+        if not self.env.user.has_group(
             "base_confirmation_requirement_rules.group_skip_confirmation_requirement_rules"
         ):
             for rec in self.filtered(
