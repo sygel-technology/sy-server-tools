@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[base_confirmation_requirement_rules](base_confirmation_requirement_rules/) | 18.0.1.0.0 |  | Base module to set confirmation requirement rules.
 [html_fields_document_layout_configuration](html_fields_document_layout_configuration/) | 18.0.1.0.0 |  | Html fields in document layout configuration
 
 [//]: # (end addons)
